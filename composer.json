@@ -1,0 +1,9 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "monolog/monolog" : "*",
+        "phpmailer/phpmailer": "~5.2",
+        "developercielo/webservice-1.5-php":"dev-master",
+        "palanik/corsslim": "*"
+    }
+}

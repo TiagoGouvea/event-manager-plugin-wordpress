@@ -1,0 +1,9 @@
+### Composer
+composer.phar
+vendor/
+
+### JetBrains
+*.iml
+
+### Directory-based
+.idea/

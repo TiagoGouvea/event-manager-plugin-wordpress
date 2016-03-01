@@ -1,0 +1,134 @@
+div.warning {
+    border-left: 4px solid #ddca45;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 1px 12px;
+}
+
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    line-height: 24px;
+    font-size: 15px;
+    padding: 6px 10px 0px 10px;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+}
+ul.tabs li{
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    display: inline-block;
+    margin: -4px 4px -1px 0;
+}
+
+ul.tabs li.ui-state-default{
+    background: silver;
+}
+
+ul.tabs li.ui-state-active{
+    background: #f5f5f5;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    display: inline-block;
+    margin: -4px 4px -1px 0;
+}
+
+ul.tabs li.ui-state-hover{
+    background: #f5f5f5;
+    border-bottom: 1px solid white;
+}
+
+ul.tabs li a{
+    text-decoration: none;
+    color: #555;
+}
+
+.tab-content{
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+
+.fields{
+    margin: 0px;
+    background-color: #f5f5f5;
+    padding: 8px;
+}
+
+.fields h3 {
+    font-size: 18px;
+    background-color: #e4e4e4;
+}
+
+/* Estilo para lista de eventos */
+table.eventos .col-title {
+    width: 35%;
+}
+
+table.eventos .column-title a{
+    font-size: 14px;
+}
+
+table.eventos .col-data {
+    width: 120px;
+}
+
+table.eventos .col-visitas, table.eventos .col-inscritos {
+    width: 170px;
+}
+
+table.eventos .col-algomais {
+    width: 200px;
+}
+
+/* Estilo para lista de inscritos */
+table.inscritos .col-title{
+    width: 300px;
+}
+
+table.inscritos .col-inscricao{
+    width: 200px;
+}
+
+table.inscritos .list_inscricoes_title{
+    min-height: 100px;
+}
+
+table.inscritos .list_inscricoes_title a{
+    font-size: 18px;
+}
+
+/* Estilo para lista de pessoas */
+
+table.pessoas .col-title{
+    width: 300px;
+}
+
+table.pessoas .col-inscritos{
+    width: 115px;
+}
+
+table.pessoas .list_pessoa_title {
+    min-height: 100px;
+}
+
+.list_pessoa_title a{
+    font-size: 18px;
+}
+
+/* Estilo para grid de integrações */
+
+table.integracoes .col-title{
+    width: 150px;
+}
